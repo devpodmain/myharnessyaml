@@ -5,7 +5,7 @@ metadata:
   description: demo
   annotations:
     # mandatory annotation
-    harness.io/project-url: https://app.harness.io/ng/#/account/hhwn-4k_Qce8JxAxR3CFuA/ci/orgs/default/projects/default_project/
+    harness.io/project-url: https://app.harness.io/ng/account/0imfjG07TR2hVBcS5AZpCQ/home/orgs/infactorg/projects/infactengops/
   tags:
     - java
 
