@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Scheduler
+  name: Scheduler Service
   description: demo
   annotations:
     # mandatory annotation
-    harness.io/project-url: https://app.harness.io/ng/account/0imfjG07TR2hVBcS5AZpCQ/home/orgs/infactorg/projects/infactengops/
+harness.io/project-url: https://app.harness.io/ng/account/0imfjG07TR2hVBcS5AZpCQ/cd/orgs/infacdorg/projects/clairedev/
+    harness.io/ci-pipelineIds: service-deploy-pipeline
+    harness.io/cd-serviceId: service-deploy-pipeline
   tags:
     - java
 
